@@ -2,11 +2,16 @@
 
 .card{
     background-color: #ffffff;
-    font-size: 14px;
     padding: 8px;
-}
-.card__title .card__description{
     color: #282828;
+
+}
+/* .card__title .card__description{
+} */
+.card__title{
+    font-size: 14px;
+}
+.card__description{
     font-size: 12px;
 }
 .card__img-top{
