@@ -3,6 +3,8 @@
 /* body */
 body:not(header){
     background-color: #C4C4C4;
+    width: auto;
+    height: 971px;
 }
 /* header */
 header{
@@ -34,4 +36,5 @@ header{
 /* footer */
 footer{
     background-color: #ffffff;
+    height: 54px;
 }
