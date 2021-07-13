@@ -1,0 +1,37 @@
+@charset 'utf-8';
+
+/* body */
+body{
+    background-color: #C4C4C4;
+}
+/* header */
+header{
+    background-color: #ffffff;
+    height: 52px;
+}
+
+/* main */
+.card{
+    background-color: #ffffff;
+    padding: 8px;
+    color: #282828;
+
+}
+/* .card__title .card__description{
+} */
+.card__title{
+    font-size: 14px;
+}
+.card__description{
+    font-size: 12px;
+}
+.card__img-top{
+    width: 288px;
+    height: 182px;
+    margin-bottom: 16px;
+}
+
+/* footer */
+footer{
+    background-color: #ffffff;
+}
