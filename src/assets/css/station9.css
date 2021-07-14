@@ -1,0 +1,114 @@
+@charset 'utf-8';
+
+/* 共通 */
+
+/* body */
+body {
+  background-color: #c4c4c4;
+}
+
+/* header */
+header {
+  background-color: #ffffff;
+  height: 52px;
+  margin-bottom: 66px;
+}
+
+/* main */
+main {
+  height: calc(1521px - 52px - 54px);
+}
+/* カードコンテナ */
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 141px;
+  margin: 0 122px 0 122px;
+}
+/* カード */
+.card {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  width: 304px;
+  height: 323px;
+  padding: 8px;
+  color: #282828;
+  margin-bottom: 158px;
+  /* filter: contrast(1.75); */
+}
+/* カード画像 */
+.card__img-top {
+  width: 288px;
+  height: 182px;
+  margin-bottom: 16px;
+}
+/* カードタイトル */
+.card__title span {
+  font-weight: bold;
+}
+.card__title span:nth-child(2) {
+  display: block;
+}
+/* 三点リーダー */
+.card__description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* footer */
+footer {
+  background-color: #ffffff;
+  height: 54px;
+}
+
+/* PC */
+@media screen {
+  /* 各カードタイトル */
+  .card__title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+  /* 各カード説明文 */
+  .card__description {
+    font-size: 12px;
+    line-height: 16px;
+    color: #808080;
+  }
+}
+
+/* タブレット */
+@media (max-width: 768px) {
+  /* 各カードタイトル */
+  .card__title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+  }
+  /* 各カード説明文 */
+  .card__description {
+    font-size: 10px;
+    line-height: 14px;
+    color: #808080;
+  }
+}
+
+/* スマホ(iPhoneSE) */
+@media (max-width: 320px) {
+  /* 各カードタイトル */
+  .card__title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+  }
+  /* 各カード説明文 */
+  .card__description {
+    display: none;
+  }
+}
