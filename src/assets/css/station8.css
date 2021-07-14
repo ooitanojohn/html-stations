@@ -3,6 +3,7 @@
 /* body */
 body {
   background-color: #c4c4c4;
+  width: 1440px;
 }
 
 /* header */
@@ -33,6 +34,9 @@ main {
   color: #282828;
   margin-bottom: 158px;
   /* filter: contrast(1.75); */
+}
+.card:nth-of-type(2){
+  margin: 0 141px 0 141px;
 }
 .card__img-top {
   width: 288px;
