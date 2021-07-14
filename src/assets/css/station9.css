@@ -112,3 +112,8 @@ footer {
     display: none;
   }
 }
+
+/* IE　対応 */
+.card-container {
+  gap: 141px;
+}
